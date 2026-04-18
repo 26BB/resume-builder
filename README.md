@@ -39,7 +39,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/resumai.git
+git clone https://github.com/bhushan/resumai.git
 cd resumai
 
 # Install dependencies
