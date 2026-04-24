@@ -78,8 +78,7 @@ export function Footer() {
           <li className="flex items-start space-x-2">
             <MapPin className="h-4 w-4 text-teal-600 mt-0.5" />
             <span>
-              JV7R+FG8, Vijapur Rd, Opp. SRP Camp, Soregaon,<br />
-              Solapur, Maharashtra 413008
+              Genba Sopanrao Moze COE , Pune - 411045
             </span>
           </li>
         </ul>
@@ -88,9 +87,7 @@ export function Footer() {
 
     {/* Bottom Footer */}
     <div className="border-t border-zinc-200 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-zinc-500">
-      <p className="mb-4 md:mb-0 flex items-center">
-        © {new Date().getFullYear()} ResumAI. Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> for job seekers.
-      </p>
+      
       <div className="flex space-x-6">
         <Link href="/privacy" className="hover:text-teal-600">Privacy</Link>
         <Link href="/terms" className="hover:text-teal-600">Terms</Link>
