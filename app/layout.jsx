@@ -16,7 +16,7 @@ export const metadata = {
 
 
 export default function RootLayout({ children }) {
-  return (<ClerkProvider
+  return (<ClerkProvider publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || "pk_test_Y2xlcmsuY2xlcmsuZGV2JA=="}
       appearance={{
         elements: {
           formButtonPrimary: "bg-teal-600 hover:bg-teal-700 text-white",
